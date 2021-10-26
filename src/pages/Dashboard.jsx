@@ -47,8 +47,6 @@ function Dashboard(props) {
     }
   }, [successCopying])
 
-  // eslint-disable-next-line no-undef
-
   const fetchDictionary = () => {
     fetch('https://opensheet.vercel.app/1UzyabhmIZ9atEB-WC4W0MTpPkRswFw8PBsBm3Q2T5KA/Sheet1')
       .then(res => res.json())
