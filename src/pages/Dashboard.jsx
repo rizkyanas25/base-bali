@@ -61,8 +61,6 @@ function Dashboard(props) {
             indo.push(word.indonesia)
           }
         })
-        console.log('bali :>> ', bali);
-        console.log('indo :>> ', indo);
         setBalinese(bali)
         setDictionary2(bali)
         setIndonesian(indo)
